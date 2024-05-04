@@ -14,7 +14,9 @@ public class MovieRepository {
     public MovieRepository(){
         this.movieMap = new HashMap<String, Movie>();
         this.directorMap = new HashMap<String, Director>();
+
         this.directorMovieMapping = new HashMap<String, List<String>>();
+    }
     }
 
     public void saveMovie(Movie movie){
